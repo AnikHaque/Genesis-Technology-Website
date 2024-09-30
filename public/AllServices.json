@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.postimg.cc/gJBZVPwx/image-3.png",
+    "title": "Petroleum and Gas",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting indstry. lpsum has been the"
+  },
+  {
+    "id": 2,
+    "image": "https://i.postimg.cc/wMCRrcQH/image-4.png",
+    "title": "Metal Industry",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting indstry. lpsum has been the"
+  },
+  {
+    "id": 3,
+    "image": "https://i.postimg.cc/4y7hwFtB/image-5.png",
+    "title": "Civil Engineering",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting indstry. lpsum has been the"
+  },
+  {
+    "id": 4,
+    "image": "https://i.postimg.cc/4y7hwFtB/image-5.png",
+    "title": "Oil Refinery",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting indstry. lpsum has been the"
+  },
+  {
+    "id": 5,
+    "image": "https://i.postimg.cc/4y7hwFtB/image-5.png",
+    "title": "Bridge Construction",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting indstry. lpsum has been the"
+  },
+  {
+    "id": 6,
+    "image": "https://i.postimg.cc/4y7hwFtB/image-5.png",
+    "title": "Chemical Research",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting indstry. lpsum has been the"
+  }
+]
