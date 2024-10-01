@@ -21,7 +21,7 @@ const HomeMeetTheTeam = () => {
         className=""
         style={{
           backgroundImage:
-            "url('https://webextheme.com/html/loxicat/images/bg/pattern3.png')",
+            "url('https://i.postimg.cc/9FF6p1VH/pngwing-com-11-1.png')",
         }}
       >
         <div className="container mx-auto p-5 py-[105px] px-[5%]">
@@ -30,13 +30,13 @@ const HomeMeetTheTeam = () => {
               Meet Our Team
             </h1>
             <h2 className="text-5xl  text-center font-bold font-rajdhani leading-[58px] mb-10">
-              We Have a Professional <br /> Consulting Team
+              We Have a Professional <br /> Management Team
             </h2>
           </div>
           <div>
             <div className="grid gap-8 row-gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
               {displayedCards.map((card) => (
-                <div key={card.id} className="relative group">
+                <div key={card.id} className="relative group bg-[#b7e9ff]">
                   {/* Card content */}
                   <div className="relative w-full overflow-hidden rounded shadow-lg">
                     {/* Image */}

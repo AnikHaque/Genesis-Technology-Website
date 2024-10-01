@@ -2,12 +2,12 @@
   "bg1": "images/dot-map.png",
   "bg2": "images/person.png",
   "bg3": "images/pattern3.png",
-  "title": "Best Industrial Company",
+  "title": "Best Technological Company",
   "heading": "Why Choose Us?",
   "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt rem sunt odit, cupiditate, ratione, praesentium minima, obcaecati eos vel voluptatem ipsa necessitatibus eius. Repellat.",
   "services": [
-    { "name": "Welding Services", "percentage": 95 },
-    { "name": "Industrial Service", "percentage": 96 },
-    { "name": "Construction Works", "percentage": 90 }
+    { "name": "xyz service", "percentage": 95 },
+    { "name": "xyz service", "percentage": 96 },
+    { "name": "xyz service", "percentage": 90 }
   ]
 }

@@ -14,41 +14,22 @@ const HomeAboutMain = () => {
   return (
     <div className="font-rajdhani px-[5%]">
       <p className="font-semibold text-lg text-[#00A1E6] underline pb-3.5">
-        Welcome to Loxicat Industry
+      Welcome to genesis technology
       </p>
       <h1 className="font-bold text-5xl text-[#0C2239] pb-6">
-        Most Leading Industrial Service Provider.
+      Most Leading Industrial Service Provider.
       </h1>
       <p className="text-[#5C5E64] text-base font-roboto pb-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-        eaque, maxime aliquam cum odio aut ex, et blanditiis corporis rerum unde
-        vitae nihil. Eius porro sunt temporibus soluta libero voluptatum.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque eaque, maxime aliquam cum odio aut ex, et blanditiis corporis rerum unde vitae nihil. 
       </p>
 
       <div>
         {cards.map((card) => (
           <div key={card.id}>
-            <li className="flex items-start pb-3">
+            <li className="flex items-start pb-3 py-4">
               {/* to change the logo, just need to change the span part  */}
               <span className="mr-2 pt-1 ">
-                <svg
-                className=""
-                  xmlns="http://www.w3.org/2000/svg"
-                  x="0px"
-                  y="0px"
-                  width="22"
-                  height="20"
-                  viewBox="0 0 48 48"
-                >
-                  <path
-                    fill="#00A1E6"
-                    d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"
-                  ></path>
-                  <path
-                    fill="#ffffff"
-                    d="M34.586,14.586l-13.57,13.586l-5.602-5.586l-2.828,2.828l8.434,8.414l16.395-16.414L34.586,14.586z"
-                  ></path>
-                </svg>{" "}
+               <img className="w-4" src="https://i.postimg.cc/7h6d9Y7r/image-7.png"></img>
               </span>
               <p className="text-base text-[#5C5E64] font-roboto">
                 {card.title}

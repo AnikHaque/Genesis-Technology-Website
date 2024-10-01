@@ -6,7 +6,7 @@ import HomeMeetTheTeam from "./HomeMeetTeam";
 
 const HomeAboutRoot = () => {
   return (
-    <div className="home-about h-full">
+    <div className="home-about">
       <HomeAbout></HomeAbout>
       <HomeAboutCard></HomeAboutCard>
     </div>

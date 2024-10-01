@@ -16,17 +16,17 @@ const Choose = () => {
     <div className="h-screen relative font-rajdhani">
      
       <img
-        src='https://webextheme.com/html/loxicat/images/bg/dot-map.png' // Orange background
-        className=" z-10 absolute left-0 top-[20%] h-[70%] w-full bg-[#0786FC] "
+        src='https://i.postimg.cc/sx6scNN1/Group-32.png' 
+        className=" z-10 absolute left-0 top-[20%] h-[60%] w-full bg-[#0786FC] "
       />
 
-      <div className=" z-30 absolute left-0 top-[10%] h-[80%] w-full px-0 md:px-7 lg:px-10">
+      <div className=" z-30 absolute left-0 top-[10%] h-[70%] w-full px-0 md:px-7 lg:px-10">
         <div className=" h-full w-full flex justify-center gap-8 md:gap-20">
           <div className="my-[10px] shadow-[rgba(0,0,0,0.2)_3px_3px_10px_1px,_rgba(0,0,0,0.2)_-3px_-3px_10px_1px] z-30 bg-white flex items-center justify-center h-[90%] w-[90%] max-w-[650px] p-4">
             <div className="h-full w-full flex flex-col p-4 gap-4">
-              <p className="text-[#00A1E6] underline text-lg">{title}</p>
+              <p className="text-[#00A1E6] underline text-lg font-bold">{title}</p>
               <h2 className="text-[#0C2239] text-[45px] font-bold mb-2 font-roboto">{heading}</h2>
-              <p className="leading-relaxed text-[#686A70]">{paragraph}</p>
+              <p className="leading-relaxed text-[#686A70] font-semibold">{paragraph}</p>
               {services.map((service, index) => (
                 <ServiceBar key={index} service={service} />
               ))}
@@ -67,7 +67,7 @@ const ServiceBar = ({ service }) => {
   return (
     <div>
       <div className="flex justify-between">
-        <h4>{service.name}</h4>
+        <h4  className="font-medium text-black">{service.name}</h4>
         <span>{percentage}%</span>
       </div>
       <div

@@ -38,11 +38,11 @@ const Footer = () => {
         <aside className="">
           <img
             className="w-[150px] lg:w-[335px] lg:h-[119px] mb-5"
-            src='https://i.postimg.cc/vm2HCN2w/360-D-Soul12-2.png'
+            src='https://i.postimg.cc/JhL0t9VW/360-D-Soul12-2-1.png'
             alt="genesis logo"
           />
           <div className="text-justify text-[#cdcdcd] font-medium">
-          GTL can provide world class solutions to almost any Fire, Safety, Security, Queue Management & Data Center problem or requirement and provides products, services and solutions to governments and governmental agencies, non-governmental organisations (NGO's), embassies, banks, power stations, critical infrastructure and major organizations.
+          GENESIS TECHNOLOGY has adopted the highest standards of IT service and consultancy quality and operational excellence, enabling its clients across a wide range of industries to transform into a truly digital, data-driven enterprise.
           </div>
           <div className="flex gap-3 my-[30px] ">
             <Link
@@ -97,22 +97,14 @@ const Footer = () => {
                 to="/"
                 className="link link-hover text-[#cdcdcd] text-[18px]"
               >
-                Safety System
+                IT Infrastructure
               </Link>
               <Link
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                 to="/"
                 className="link link-hover text-[#cdcdcd] text-[18px]"
               >
-                Environmental Monitoring System
-              </Link>
-
-              <Link
-                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                to="/"
-                className="link link-hover text-[#cdcdcd] text-[18px]"
-              >
-               Fire System
+               Integrated Cyber Security
               </Link>
 
               <Link
@@ -120,7 +112,36 @@ const Footer = () => {
                 to="/"
                 className="link link-hover text-[#cdcdcd] text-[18px]"
               >
-                Data Center
+               Modern Workplace
+              </Link>
+
+              <Link
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                to="/"
+                className="link link-hover text-[#cdcdcd] text-[18px]"
+              >
+                Web Application
+              </Link>
+              <Link
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                to="/"
+                className="link link-hover text-[#cdcdcd] text-[18px]"
+              >
+                Business Automation
+              </Link>
+              <Link
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                to="/"
+                className="link link-hover text-[#cdcdcd] text-[18px]"
+              >
+                Internet of Things (IoT)
+              </Link>
+              <Link
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                to="/"
+                className="link link-hover text-[#cdcdcd] text-[18px]"
+              >
+                Blockchain
               </Link>
             </div>
           )}
@@ -130,22 +151,14 @@ const Footer = () => {
                 to="/"
                 className="link link-hover text-[#cdcdcd] text-[18px]"
               >
-                Safety System
+                IT Infrastructure
               </Link>
               <Link
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                 to="/"
                 className="link link-hover text-[#cdcdcd] text-[18px]"
               >
-                Environmental Monitoring System
-              </Link>
-
-              <Link
-                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                to="/"
-                className="link link-hover text-[#cdcdcd] text-[18px]"
-              >
-               Fire System
+               Integrated Cyber Security
               </Link>
 
               <Link
@@ -153,7 +166,7 @@ const Footer = () => {
                 to="/"
                 className="link link-hover text-[#cdcdcd] text-[18px]"
               >
-                Security System
+               Modern Workplace
               </Link>
 
               <Link
@@ -161,7 +174,28 @@ const Footer = () => {
                 to="/"
                 className="link link-hover text-[#cdcdcd] text-[18px]"
               >
-                Data Center
+                Web Application
+              </Link>
+              <Link
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                to="/"
+                className="link link-hover text-[#cdcdcd] text-[18px]"
+              >
+                Business Automation
+              </Link>
+              <Link
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                to="/"
+                className="link link-hover text-[#cdcdcd] text-[18px]"
+              >
+                Internet of Things (IoT)
+              </Link>
+              <Link
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                to="/"
+                className="link link-hover text-[#cdcdcd] text-[18px]"
+              >
+                Blockchain
               </Link>
 
           </div>

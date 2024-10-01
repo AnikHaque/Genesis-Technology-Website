@@ -10,28 +10,14 @@ const HomeAboutCard = () => {
           <div className="group relative">
             <div className="relative flex flex-cols-3 bg-[#fcf8f5] group-hover:bg-[#00A1E6] p-[30px] border border-gray-100 shadow-sm">
               <div className="group-hover:stroke-white col-span-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-12 h-12 text-[#00A1E6] group-hover:text-white transition-all duration-300"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 3v2.25m6 3V9m-3.75-3v2.25m-.75 2.25h1.5M12 9H6.75M12 9h4.5M12 21v-2.25M6.75 21V9m10.5 12V9"
-                  />
-                </svg>
+               <img src="https://i.postimg.cc/0ypWpJ3J/image-11-1.png" className=" text-[#00A1E6] group-hover:text-white transition-all duration-300"></img>
               </div>
               <div className="col-span-2 ml-3 z-10">
                 <h2 className="text-2xl font-rajdhani font-bold text-[#00A1E6] mb-[15px] group-hover:text-white transition-all duration-300">
-                  Skilled Workers
+                Skilled Developers
                 </h2>
                 <p className="text-gray-600 text-base font-normal group-hover:text-white transition-all duration-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Libero natus voluptatibus ea repudiandae vero?
+                Lorem Ipsum is simply dummy text of the printing typesetting indstry. lpsum has been the
                 </p>
               </div>
             </div>
@@ -61,45 +47,10 @@ const HomeAboutCard = () => {
           {/* Card 2 - Modern Buildings with no hover effect and background SVG */}
           <div className="relative">
             <div
-              className="relative flex flex-cols-3 bg-[#00A1E6] p-[30px] border border-gray-100 shadow-sm"
-              //   style={{
-              //     backgroundImage: 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'none\'  viewBox=\'0 0 24 24\' stroke=\'%230c2239\' stroke-width=\'1.5\'%3E%3Cpath stroke-linecap=\'round\' stroke-linejoin=\'round\' d=\'M12 3v2.25m6 3V9m-3.75-3v2.25m-.75 2.25h1.5M12 9H6.75M12 9h4.5M12 21v-2.25M6.75 21V9m10.5 12V9\'/%3E%3C/svg%3E")',
-              //     backgroundRepeat: 'no-repeat',
-              //     backgroundPosition: 'right bottom',
-              //     backgroundSize: '150px'
-              //   }}
-            >
-              {/* <div className='absolute inset-0 z-10 bg-black opacity-0 '>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="w-12 h-12 text-white"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 3v2.25m6 3V9m-3.75-3v2.25m-.75 2.25h1.5M12 9H6.75M12 9h4.5M12 21v-2.25M6.75 21V9m10.5 12V9"
-                />
-              </svg>
-              </div> */}
+              className="relative flex flex-cols-3 bg-[#00A1E6] p-[30px] border border-gray-100 shadow-sm">
+             
               <div className="relative col-span-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-12 h-12 text-white"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 3v2.25m6 3V9m-3.75-3v2.25m-.75 2.25h1.5M12 9H6.75M12 9h4.5M12 21v-2.25M6.75 21V9m10.5 12V9"
-                  />
-                </svg>
+                <img src="https://i.postimg.cc/LsDxWFm9/image-13.png"></img>
               </div>
               <div className="relative col-span-2 ml-3 z-10">
                 <h2 className="text-2xl font-rajdhani font-bold text-white mb-[15px]">
@@ -126,20 +77,7 @@ const HomeAboutCard = () => {
           <div className="group relative">
             <div className="relative flex flex-cols-3 bg-[#fcf8f5] group-hover:bg-[#00A1E6] p-[30px] border border-gray-100 shadow-sm">
               <div className="group-hover:stroke-white col-span-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-12 h-12 text-[#00A1E6] group-hover:text-white transition-all duration-300"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 3v2.25m6 3V9m-3.75-3v2.25m-.75 2.25h1.5M12 9H6.75M12 9h4.5M12 21v-2.25M6.75 21V9m10.5 12V9"
-                  />
-                </svg>
+               <img src="https://i.postimg.cc/3wYL9x5f/image-12.png"></img>
               </div>
               <div className="col-span-2 ml-3 z-10">
                 <h2 className="text-2xl font-rajdhani font-bold text-[#00A1E6] mb-[15px] group-hover:text-white transition-all duration-300">
